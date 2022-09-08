@@ -1,1 +1,1 @@
-# ics128-ecommerce-final
+# ICS 128 Final Project: Ecommerce Website
