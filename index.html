@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <!-- Additional code required by Bootstrap in order to properly initialize the site and styles. -->
+  <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="includes/bootstrap.min.css" />
+  <!-- Reference code used to enable jQuery on the site page. -->
+  <script
+          src="https://code.jquery.com/jquery-3.6.0.js"
+          integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          crossorigin="anonymous">
+  </script>
+  <title>BlimpTrips | Main Page</title>
+</head>
+<body>
+<!-- Simple navbar header with links to the other pages. Styling provided by Bootstrap. -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li id="home" class="nav-item active">
+          <a class="nav-link" href="index.html"
+          >Home <span class="sr-only">(current)</span> </a
+          >
+        </li>
+        <li id="package-page" class="nav-item all-packages">
+          <a class="nav-link" href="packages.html">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Checkout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- This div shows the welcome message, and if the button is clicked it will switch to begin iterating through the four qualifying questions. -->
+<div id="questions-jumbotron" class="jumbotron">
+  <h1 id="question-head"class="display-3">Welcome to BlimpTrips</h1>
+  <p id="current-question" class="lead"><br>Here at BlimpTrips, we think just because something is vintage it doesn't mean it's irrelevant. <br>Whether you're looking for a sensible option to take to the air in style and luxury, or you'd like to soar through the clouds at blinding speeds, we have the solution for you.</p>
+  <br>
+  <div id="possible-answers">
+    <a id="ques-cont" class="btn btn-primary btn-lg"  role="button" style='color:#FFFFFF'>Find Your Perfect Blimp</a>
+  </div>
+</div>
+<!-- This div will display only if/when the user completes all of the qualifying questions to filter and find an appropriate blimp package. -->
+<div id="sales-jumbotron" class="jumbotron">
+  <h1 class="display-3" id="display-title">Filtered Result</h1>
+  <p class="lead" id="sales-message">
+    The following blimp experiences met your criteria:
+  </p>
+  <hr class="my-4" />
+</div>
+<!-- Simple navbar footer with links to the other pages. Styling provided by Bootstrap. -->
+<footer style="height: 70px;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li id="home" class="nav-item active">
+          <a class="nav-link" href="index.html"
+          >Home <span class="sr-only">(current)</span> </a
+          >
+        </li>
+        <li id="package-page" class="nav-item all-packages">
+          <a class="nav-link" href="packages.html">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Checkout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</footer>
+<!-- Self-made Javascript code to actuate qualifying questions, show filtered results, etc. -->
+<script src="includes/scripts.js"></script>
+<!-- Additional code required by Bootstrap in order to properly initialize the site and styles.-->
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
+
